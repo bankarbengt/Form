@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My site</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <style></style>
+  </head>
+
+  <body>
+    <h1 id="title">Title</h1>
+    <p id="description">här är en beskrivning</p>
+    <form action="url-för-submit" id="survey-form">
+      <label for="" id="name-label">Name</label>
+      <input type="text" placeholder="Your name" id="name" required />
+      <label for="" id="email-label">Email</label>
+      <input type="email" placeholder="Your email" id="email" required />
+      <label for="" id="number-label">Age</label>
+      <input
+        type="number"
+        placeholder="your age"
+        id="number"
+        min="18"
+        max="120"
+      />
+
+      <label for="" id="number-label">Välj</label>
+      <select name="" id="dropdown" placeholder="hej">
+        <option value="choose" disabled selected>choose</option>
+        <option value="option 2">option 2</option>
+        <option value="option 3">option 3</option>
+        <option value="option 4">option 4</option>
+      </select>
+
+      <label for="lol">
+        Välj igen <input type="radio" name="lol" id="" value="lul" />lul
+        <input type="radio" name="lol" id="" value="lel" />lel
+        <input type="radio" name="lol" id="" value="kek" />kek
+      </label>
+
+      <label for="check">
+        <input type="checkbox" name="check" id="" value="1" />1
+        <input type="checkbox" name="check" id="" value="2" />2
+        <input type="checkbox" name="check" id="" value="3" />3
+      </label>
+
+      <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+
+      <button type="submit" id="submit">Submit</button>
+    </form>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
